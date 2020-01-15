@@ -1,0 +1,6 @@
+li{
+    list-style: none ;
+}
+ul li{
+    display: inline ;
+}
