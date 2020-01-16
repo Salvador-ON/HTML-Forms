@@ -1,5 +1,5 @@
 body{
-    background: rgb(200, 213, 221);
+    background: rgb(236, 238, 241);
 }
 
 
@@ -83,9 +83,7 @@ text-align: center;
 }
 
 #Help-a{
-    font-size: 12px;
-   
-    
+    font-size: 12px;    
 }
 
 #Help-container{
@@ -97,7 +95,7 @@ text-align: center;
     padding-bottom: 20px;
 }
 
-/* form styles */
+/* start form styles */
 
 .input-block{
     width: 304px;
@@ -137,11 +135,18 @@ label{
     color-adjust: #444444;
     font-family: Arial, Helvetica, sans-serif;
 }
+#password{
+    background-image: url(media/form-lock-icon.png);
+    background-size: 22px;
+    background-repeat: no-repeat;
+    background-position: 290px;
+}
 
 .Add-Text{
     display: block;
     min-height: 30px;
 }
+/* end form styles */
 
 footer{
     width: 318px;
@@ -158,3 +163,36 @@ footer{
 #Button-Container{
     padding-bottom: 30px;
 }
+
+/* start footer */
+#captcha{
+    background-color: #eceef1;
+    width : 380px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 16px;
+    margin: 32px -30px -30px -30px;
+    box-sizing: border-box;
+}
+#captcha-text{
+    color: #8D9096;
+}
+
+#final-footer{
+    width: 820px;
+    margin: 0 49px;
+    padding: 20px 0;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif:
+}
+
+ul{
+    padding-inline-start: 0;
+}
+
+#legal{
+    margin: 0;
+    padding-top: 5px;    
+}
+/* end footer */

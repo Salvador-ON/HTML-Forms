@@ -42,36 +42,58 @@
         <div class="Title-content">
             <div id="Title-create">Create an Intuit account</div>
             <div id="Subtitle-create">One account for everything Intuit,including Mint.</div>
-            <div id="Help-container"><a id="Help-a" href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account">Learn more</a></div>
+            <div id="Help-container"><a id="Help-a"
+                    href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account">Learn more</a>
+            </div>
         </div>
         <form>
-            <label for=""> Email adress 
-                <input class="input-block" type="email" name="" id="">
+            <label for="email"> Email adress
+                <input class="input-block" type="email" name="email" id="email">
             </label>
             <span class="Add-Text"></span>
-            
 
-            <label for=""> Phone (Recomended)
-                    <input class="input-block" type="tel" name="" id="">
-                </label>
+
+            <label for="phone"> Phone (Recomended)
+                <input class="input-block" type="tel" name="phone" id="phone">
+            </label>
             <span id="Info-Phone">Standard call, messaging or data rates may apply.</span>
             <span class="Add-Text"></span>
 
-            <label for=""> Password (Recomended)
-                    <input class="input-block" type="password" name="" id="">
-                </label>
-                <span class="Add-Text"></span>
+            <label for="password"> Password
+                <input class="input-block" type="password" name="password" id="password">
+            </label>
+            <span class="Add-Text"></span>
         </form>
 
-        <div id="Button-Container"><button id="Create-Button"><span class="Create-Span"></span><img id="Img-Create-Button" src="media/lock-icon.png" alt="lock icon"></span>Create Account</button> </div>
+        <div id="Button-Container"><button id="Create-Button"><span class="Create-Span"></span><img
+                    id="Img-Create-Button" src="media/lock-icon.png" alt="lock icon"></span>Create Account</button>
+        </div>
 
         <footer>
             <span id="Clicking-Span"> By clicking Create account, you agree to our </span>
-            <span> <a href="https://www.mint.com/terms">Terms</a> and have read and acknowledge our <a href="https://security.intuit.com/privacy">Privacy Statement.</a></span>
-            </footer>
+            <span> <a href="https://www.mint.com/terms">Terms</a> and have read and acknowledge our <a
+                    href="https://security.intuit.com/privacy">Privacy Statement.</a></span>
+        </footer>
+        <div id="captcha">
+            <span id="captcha-text">Invisible reCAPTCHA by Google<a
+                    href="https://www.google.com/intl/en/policies/privacy/"> Privacy
+                    Policy</a href="https://www.google.com/intl/en/policies/terms/"> and <a>Terms of Use</a>
+            </span>
+        </div>
     </main>
-    
+
+    <footer id="final-footer">
+        <ul id="legal">
+            <li><a href="http://about.intuit.com/legal/>Legal">Legal</a></li>
+            <li><a href="https://security.intuit.com/privacy/">Privacy</a></li>
+            <li><a href="http://security.intuit.com/>Security">Security</a></li>
+        </ul>
+        <span>2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are
+            registered trademarks of Intuit Inc.
+        </span><br>Terms and conditions, features, support, pricing, and service options subject to change without
+        notice.
+    </footer>
 </body>
 
-</html>
 
+</html>
