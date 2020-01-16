@@ -114,3 +114,25 @@ label{
     font-size: 14px;
     color: #404040;
 }
+
+#Img-Create-Button{
+    width: 12.59px;
+    margin-right: 4px;
+
+}
+
+#Create-Button{
+    width: 320px;
+    height: 42px;
+    padding: 6px 20px;
+    background-color: #0077C5;
+    color: white;
+    border-radius: 3px;
+    border: 0;
+    box-sizing: border-box;
+}
+
+#Info-Phone{
+    padding-top: -20px;
+}
+
