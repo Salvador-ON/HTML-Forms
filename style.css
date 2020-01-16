@@ -1,34 +1,39 @@
+/* start Header */
 body{
     background: rgb(236, 238, 241);
 }
 
-
 li{
     list-style: none;
 }
+
 ul li{
     display: inline;
 }
+
 .nav-container{
     display: flex;
     flex-direction: row;
     text-align: right;
     float: right;
 }
+
 body{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .signup-container{
     width: 1000px;
-    padding: 10px 30px;
-    
+    padding: 10px 30px;    
 }
+
 .lock-icon{
     width: 11px;
     height:14px;
 }
+
 #signup-btn{
     width: 95px;
     height: 35px;
@@ -39,13 +44,18 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
+
 .nav-text{
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .navigation{
     margin-right: 10px;
 }
+/* end Header */
+
+/* start main */
 a{
     text-decoration: none;
     color: #0077C5;
@@ -53,9 +63,7 @@ a{
 
 form{
     display: block;
-    width: 318px;
-    
-    
+    width: 318px;   
 }
 
 main{
@@ -63,8 +71,7 @@ main{
     border: 1px rgba(184, 191, 223, 0.767) solid;
     border-radius: 2px;
     padding: 30px;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;  
 }
 
 #Title-create{
@@ -75,11 +82,11 @@ main{
 }
 
 #Subtitle-create{
-padding-top: 20px;
-color: #4c4c4c;
-font-size:14px;
-font-family: Arial, Helvetica, sans-serif;
-text-align: center;
+    padding-top: 20px;
+    color: #4c4c4c;
+    font-size:14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 #Help-a{
@@ -94,6 +101,7 @@ text-align: center;
 .Title-content{
     padding-bottom: 20px;
 }
+/* end main */
 
 /* start form styles */
 
@@ -116,7 +124,6 @@ label{
 #Img-Create-Button{
     width: 12.59px;
     margin-right: 4px;
-
 }
 
 #Create-Button{
@@ -146,7 +153,6 @@ label{
     display: block;
     min-height: 30px;
 }
-/* end form styles */
 
 footer{
     width: 318px;
@@ -163,6 +169,7 @@ footer{
 #Button-Container{
     padding-bottom: 30px;
 }
+/* end form styling*/
 
 /* start footer */
 #captcha{
@@ -184,7 +191,7 @@ footer{
     margin: 0 49px;
     padding: 20px 0;
     font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif:
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 ul{
