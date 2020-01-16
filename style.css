@@ -4,3 +4,44 @@ li{
 ul li{
     display: inline;
 }
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    float: right;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.signup-container{
+    width: 1000px;
+    padding: 10px 30px;
+    
+}
+.lock-icon{
+    width: 11px;
+    height:14px;
+}
+#signup-btn{
+    width: 95px;
+    height: 35px;
+    background-color: #0077C5;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.nav-text{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navigation{
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: #0077C5;
+}
