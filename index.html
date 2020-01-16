@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Mint's Sing Up</title>
+</head>
+
+<body>
+    <div class="signup-container">
+        <div class="nav-container">
+            <div class="navigation">
+                <div class="nav-text">Already have an Intuit account?</div>
+                <a class="nav-text" id="forgot-account"
+                    href="https://accounts.intuit.com/account-recovery.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Ftask%3DS">I
+                    forgot my User ID or Password
+                </a>
+            </div>
+            <div class="navigation">
+                <button id="signup-btn">
+                    <span><img class="lock-icon" src="media/lock-icon.png" alt="lock-icon"></span>
+                    Sign In
+                </button>
+            </div>
+        </div>
+    </div>
+    <header>
+        <img id="logo" src="media/intuit.png" alt="logo">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="https://www.mint.com"><img src="media/mint.png" alt="mint"></a></li>
+            <li><a href="https://quickbooks.intuit.com"><img src="media/quickbooks.png" alt="quickbooks"></a></li>
+            <li><a href="https://turbotax.intuit.com"><img src="media/turbotax.png" alt="turbotax"></a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="Title-content">
+            <div id="Title-create">Create an Intuit account</div>
+            <div id="Subtitle-create">One account for everything Intuit,including Mint.</div>
+            <div id="Help-container"><a id="Help-a"
+                    href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account">Learn more</a>
+            </div>
+        </div>
+        <form>
+            <label for="email"> Email adress
+                <input class="input-block" type="email" name="email" id="email">
+            </label>
+            <span class="Add-Text"></span>
+
+
+            <label for="phone"> Phone (Recomended)
+                <input class="input-block" type="tel" name="phone" id="phone">
+            </label>
+            <span id="Info-Phone">Standard call, messaging or data rates may apply.</span>
+            <span class="Add-Text"></span>
+
+            <label for="password"> Password
+                <input class="input-block" type="password" name="password" id="password">
+            </label>
+            <span class="Add-Text"></span>
+        </form>
+
+        <div id="Button-Container"><button id="Create-Button"><span class="Create-Span"></span><img
+                    id="Img-Create-Button" src="media/lock-icon.png" alt="lock icon">Create Account</button>
+        </div>
+
+        <footer>
+            <span id="Clicking-Span"> By clicking Create account, you agree to our </span>
+            <span> <a href="https://www.mint.com/terms">Terms</a> and have read and acknowledge our <a
+                    href="https://security.intuit.com/privacy">Privacy Statement.</a></span>
+        </footer>
+        <div id="captcha">
+            <span id="captcha-text">Invisible reCAPTCHA by Google<a
+                    href="https://www.google.com/intl/en/policies/privacy/"> Privacy
+                    Policy</a> and <a href="https://www.google.com/intl/en/policies/terms/">Terms of Use</a>
+            </span>
+        </div>
+    </main>
+
+    <footer id="final-footer">
+        <ul id="legal">
+            <li><a href="http://about.intuit.com/legal/">Legal</a></li>
+            <li><a href="https://security.intuit.com/privacy/">Privacy</a></li>
+            <li><a href="http://security.intuit.com/">Security</a></li>
+        </ul>
+        <span>2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are
+            registered trademarks of Intuit Inc.
+        </span><br>Terms and conditions, features, support, pricing, and service options subject to change without
+        notice.
+    </footer>
+</body>
+
+
+</html>
