@@ -64,6 +64,7 @@ main{
     border-radius: 2px;
     padding: 30px;
     box-sizing: border-box;
+    
 }
 
 #Title-create{
@@ -104,7 +105,6 @@ text-align: center;
     padding: 0 6px 0 8px;
     border: 1px solid #C1C5C8;
     border-radius: 2px;
-    margin-bottom: 35px;
     margin-top:10px;
 }
 
@@ -133,6 +133,28 @@ label{
 }
 
 #Info-Phone{
-    padding-top: -20px;
+    font-size: 10px;
+    color-adjust: #444444;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+.Add-Text{
+    display: block;
+    min-height: 30px;
+}
+
+footer{
+    width: 318px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #757575;
+}
+
+#Clicking-Span{
+    display: block;
+}
+
+#Button-Container{
+    padding-bottom: 30px;
+}
