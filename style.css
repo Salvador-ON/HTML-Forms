@@ -1,3 +1,8 @@
+body{
+    background: rgb(200, 213, 221);
+}
+
+
 li{
     list-style: none;
 }
@@ -44,4 +49,68 @@ body{
 a{
     text-decoration: none;
     color: #0077C5;
+}
+
+form{
+    display: block;
+    width: 318px;
+    
+    
+}
+
+main{
+    background: white;
+    border: 1px rgba(184, 191, 223, 0.767) solid;
+    border-radius: 2px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+#Title-create{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #4c4c4c;
+}
+
+#Subtitle-create{
+padding-top: 20px;
+color: #4c4c4c;
+font-size:14px;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+}
+
+#Help-a{
+    font-size: 12px;
+   
+    
+}
+
+#Help-container{
+    width:318px;
+    text-align: center;
+}
+
+.Title-content{
+    padding-bottom: 20px;
+}
+
+/* form styles */
+
+.input-block{
+    width: 304px;
+    height: 34px;
+    padding: 0 6px 0 8px;
+    border: 1px solid #C1C5C8;
+    border-radius: 2px;
+    margin-bottom: 35px;
+    margin-top:10px;
+}
+
+label{
+    padding-bottom: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #404040;
 }
