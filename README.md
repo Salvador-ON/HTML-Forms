@@ -29,5 +29,4 @@ HTML5 and CSS3
 
 
 *Link to the [Demo](https://raw.githack.com/Salvador-ON/HTML-Forms/master/index.htmll)*
-
-![screeshot](/media/Screenshot_2020-05-08 Mint's Sing Up.png)
+![screen shot](/media/Screenshot_2020-05-08 Mint's Sing Up.png)
