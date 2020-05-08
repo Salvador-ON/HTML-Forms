@@ -1,15 +1,15 @@
 # HTML-Forms
-HTML document that matches the appearance of mint.com’s signup page 
+HTML document that matches the appearance of mint.com’s signup page.
 
-It's from the Odin Project - Microverse
+It's from the Odin Project - Microverse.
 
 ## Made with
 HTML5 and CSS3
 
 ## Tech used
-* Forms
-* Buttons
-* embed pictures
+* Forms.
+* Buttons.
+* embed pictures.
 
 ## Authors
 
@@ -28,4 +28,6 @@ HTML5 and CSS3
 
 
 
-*Link to the [Project](https://www.theodinproject.com/courses/html5-and-css3/lessons/html-forms)*
+*Link to the [Demo](https://raw.githack.com/Salvador-ON/HTML-Forms/master/index.htmll)*
+
+![screeshot](/media/Screenshot_2020-05-08 Mint's Sing Up.png)
