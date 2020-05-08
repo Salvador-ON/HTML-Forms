@@ -9,7 +9,7 @@ HTML5 and CSS3
 ## Tech used
 * Forms.
 * Buttons.
-* embed pictures.
+* Embed pictures.
 
 ## Authors
 
